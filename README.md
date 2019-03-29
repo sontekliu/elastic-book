@@ -1,4 +1,4 @@
-# redis 学习笔记
+# ElasticSearch 学习笔记
 
 #### 项目介绍
 ElasticSearch 学习笔记
