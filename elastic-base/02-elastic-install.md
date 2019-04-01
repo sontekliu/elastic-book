@@ -77,6 +77,8 @@ Index 里面的单条纪录称为 Document（文档），多条 Document 构成�
 }
 ```
 
+同一个 Index 里面的 Document，不要求有相同的结构，但是最好保持相同，这样有利于提高搜索效率。
+
 #### 2.4 Type
 每个索引里都可以有一个或多个 Type，Type 是 Index 中的一个逻辑数据分类，一个 Type 下的 Document，都有相同的field，比如博客系统，有一个Index，可以定义用户数据 Type，博客数据Type，评论数据 Type。Type 就类似于关系型数据库中的表（table）。
 
